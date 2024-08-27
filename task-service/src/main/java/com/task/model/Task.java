@@ -25,8 +25,6 @@ public class Task {
     @Column(name = "status", nullable = false, length = 225)
     private Status status;
 
-
-
     @Column(name = "project_id" , nullable = false)
     private Long projectId;
 }
