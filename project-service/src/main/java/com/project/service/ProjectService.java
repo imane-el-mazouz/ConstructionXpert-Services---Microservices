@@ -42,4 +42,19 @@ public class ProjectService {
         projectRepository.deleteById(id);
     }
 
+    public Project updateProject(Long id, Project updatedProject) {
+        Project project = projectRepository.findById(id)
+                .orElseThrow(() -> new ProjectNotFoundException("No project found with this ID"));
+        project.setName(updatedProject.getName());
+        project.setDescription(updatedProject.getDescription());
+        project.setStartDate(updatedProject.getStartDate());
+        project.setEndDate(updatedProject.getEndDate());
+        project.setBudget(updatedProject.getBudget());
+        return projectRepository.save(project);
+    }
+
+    public Boolean existProject (Long id){
+        return projectRepository.existsById(id);
+    }
+
 }

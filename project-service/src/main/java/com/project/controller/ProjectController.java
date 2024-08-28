@@ -44,8 +44,18 @@ public class ProjectController {
         return ResponseEntity.noContent().build();
     }
 
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Project> updateProject(@PathVariable Long id, @RequestBody Project project) {
+        Project updatedProject = projectService.updateProject(id, project);
+        return ResponseEntity.ok(updatedProject);
+    }
 
 
+    @GetMapping("/exist/{id}")
+    public ResponseEntity <Boolean> existProject ( @PathVariable Long id ){
+        boolean exist = projectService.existProject(id);
+        return ResponseEntity.ok(exist);
+    }
 
 
 }

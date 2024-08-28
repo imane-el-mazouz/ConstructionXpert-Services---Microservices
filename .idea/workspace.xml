@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fab11fb-0741-47c9-9b88-8495613e5bb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/project/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/project/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/com/task/exception/TaskNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/project/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/project/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/project/exception/ProjectNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/project/exception/ProjectNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/project/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/project/model/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/project/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/project/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-service/src/main/resources/db/migration/V1__Create_Resource_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/resource-service/src/main/resources/db/migration/V1__Create_Resource_Table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/task/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/task/controller/TaskController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/task/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/task/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/db/migration/V1__Create_Task_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/db/migration/V1__Create_Task_Table.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724755176106</updated>
       <workItem from="1724755177390" duration="15852000" />
-      <workItem from="1724775727484" duration="2291000" />
+      <workItem from="1724775727484" duration="3640000" />
     </task>
     <servers />
   </component>
