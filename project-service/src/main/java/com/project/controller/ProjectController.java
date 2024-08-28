@@ -51,7 +51,7 @@ public class ProjectController {
     }
 
 
-    @GetMapping("/exist/{id}")
+    @GetMapping("/{id}/exist")
     public ResponseEntity <Boolean> existProject ( @PathVariable Long id ){
         boolean exist = projectService.existProject(id);
         return ResponseEntity.ok(exist);
