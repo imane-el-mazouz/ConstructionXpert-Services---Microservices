@@ -21,8 +21,6 @@ public class TaskService {
     private TaskRepository taskRepository;
 
     @Autowired
-
-
     private final RestTemplate restTemplate;
 
     private static final String PROJECT_SERVICE_URL = "http://project-service/api/project";
